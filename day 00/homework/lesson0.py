@@ -1,5 +1,3 @@
-
-
 from turtle import *
 #we want to paint a house
 
@@ -93,3 +91,5 @@ forward(2)
 
 
 exitonclick()
+
+
