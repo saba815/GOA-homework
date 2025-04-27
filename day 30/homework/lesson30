@@ -1,9 +1,76 @@
-num = int(input("Enter a number: "))
 
-if num > 0:
-    if num % 2 == 0:
+number = int(input("შეიყვანეთ ნებისმიერი რიცხვი: "))
+
+if number > 0:
+    if number % 2 == 0:
         print("The number is positive and even.")
     else:
         print("The number is positive and odd.")
+elif number < 0:
+    print("The number is negative.")
+else:
+    print("The number is zero.")
 
-        
+    total = 0
+
+n = 0
+s = 0
+
+while n >= 0:
+    n = int(input("Enter number: "))
+    if n > 0:
+        s = s + n
+
+print(s)
+
+n = 0
+even = 0
+odd = 0
+
+while n >= 0:
+    n = int(input("Enter number: "))
+    if n >= 0:
+        if n % 2 == 0:
+            even = even + 1
+        else:
+            odd = odd + 1
+
+print("Even numbers:", even)
+print("Odd numbers:", odd)
+
+
+correct_pin = 1234
+attempts = 0
+access = False
+
+while attempts < 3:
+    pin = int(input("Enter PIN: "))
+    if pin == correct_pin:
+        access = True
+    attempts = attempts + 1
+
+if access == True:
+    print("Access Granted")
+else:
+    print("Access Denied")
+
+
+    total = 0
+count = 0
+num = 0
+
+while num != -1:
+    num = int(input("Enter a number: "))
+    
+    if num != -1:
+        total = total + num
+        count = count + 1
+
+if count > 0:
+    average = total / count
+    print("The average of the numbers is:", average)
+else:
+    print("No numbers were entered.")
+
+
+
