@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+    h1 {
+      color: blue;
+      text-align: center;
+    }
+
+    ul li {
+      color: green;
+    }
+  </style>
+
+
+  <h1>ჩემი დღის განრიგი</h1>
+
+    <!--დეკლარაცია არის CSS-ში გამოყენებული წყვილი – თვისება (property) და მისი მნიშვნელობა (value).
+     დეკლარაცია განსაზღვრავს, როგორ უნდა გამოიყურებოდეს HTML ელემენტი. მაგალითი:color: red;-->
+
+     <!--კუთვნილება (property) არის ის მახასიათებელი, რომელსაც ცვლით (მაგალითად, ფერი, ზომა, სიგანე და სხვა).
+მნიშვნელობა (value) – არის ამ მახასიათებლის მნიშვნელობა, რაც ელემენტს ეძლევა. მაგალითი:font-size: 20px;-->
+
+<!--CSS წესი შედგება:
+
+სელექტორისგან (რომელ ელემენტზე მოქმედებს),
+
+ფიგურულ ფრჩხილებში მოქცეული დეკლარაციებისგან. მაგალითი:p {
+  color: blue;
+  font-size: 18px;
+} -->
+
+<!--inline css:სტილი იწერება პირდაპირ HTML ელემენტზე, style ატრიბუტით. მოქმედებს მხოლოდ კონკრეტულ ელემენტზე.-->
+<!--internal css:სტილები იწერება <style> თეგში HTML ფაილის <head> ნაწილში.მოქმედებს მთელ გვერდზე, ანუ 
+    მრავალ ელემენტზე ერთდროულად.-->
+
+    <!--nternal CSS-ს, რადგან:
+
+კოდი უფრო სუფთაა და ადვილად იკითხება,
+
+ერთიანი სტილის მართვა შეიძლება მთელი გვერდისთვის ერთ ადგილიდან,
+
+აღარ გვიწევს ერთსა და იმავე სტილის ასობით განმეორება.
+
+ Inline CSS-ს ვიყენებ მხოლოდ მაშინ, როცა ძალიან მცირე, ერთჯერად ცვლილებას ვაკეთებ.-->
+
+ 
+  
+
+  <ul>
+    <li>გაღვიძება</li>
+    <li>სწავლა</li>
+    <li>ვარჯიში</li>
+    <li>დასვენება</li>
+  </ul>
+
+
+  <style>
+    h1, h2 {
+      color: navy;
+      background-color: lightgray;
+      text-align: center;
+      font-family: Arial, sans-serif;
+      font-size: 30px;
+    }
+
+    div p {
+      color: white;
+      background-color: green;
+      text-align: justify;
+      font-family: Georgia, serif;
+      font-size: 18px;
+    }
+  </style>
+
+
+  <h1>სათაური H1</h1>
+  <h2>სათაური H2</h2>
+
+  <div>
+    <p>ეს არის პირველი პარაგრაფი DIV-ში.</p>
+    <p>ეს არის მეორე პარაგრაფი DIV-ში.</p>
+  </div>
+
+
+
+
+</body>
+</html>
