@@ -1,0 +1,2 @@
+we have to types of tags first - container tag it is the tag with the open and close tag.
+and the second - empty tag this kind of tag is when it only has the open tag.
