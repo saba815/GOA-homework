@@ -5,7 +5,7 @@ print(points)      # საბოლოო მნიშვნელობის 
 
 
 
-#this is a code taht is incorrect
+#this is a code that is incorrect
 # name = input("რა არის შენი სახელი?)
 # print("მოგესალმები", name)
 # age = int(input("რამდენი წლის ხარ?"))
